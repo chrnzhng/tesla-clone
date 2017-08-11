@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NavLink from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './landing-page.css';
 
 class LandingPage extends Component {
@@ -15,7 +15,7 @@ class LandingPage extends Component {
                                 className="logo"
                                 src='https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-landing/tsla-logo.svg'/>
                             <ul className="header-nav-lnk">
-                                <li>MODEL S</li>
+                                <Link to="/teslas"><li>MODEL S</li></Link>
                                 <li>MODEL X</li>
                                 <li>MODEL 3</li>
                                 <li>ENERGY
