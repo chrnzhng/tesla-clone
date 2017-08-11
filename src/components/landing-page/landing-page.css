@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+h1,
+h5 {
+    color: #fff;
+    font-family: 'Open Sans Condensed'
+}
+
+.header {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background: transparent;
+}
+
+.header-nav-lnk {
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+    list-style: none;
+    padding-right: 5px;
+}
+
+.logo {
+    height: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.intro-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.wrapper-intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
