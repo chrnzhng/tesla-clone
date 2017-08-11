@@ -8,9 +8,9 @@ import StorePage from './components/store-page/store-page';
 
 export default (
     <Switch>
+        <Route path="/" component={LandingPage} exact/>
         <Route path="/store" component={StorePage}/>
         <Route path="/cart" component={CartPage}/>
         <Route path="/teslas" component={TeslaS}/>
-        <Route path="/" component={LandingPage}/>
     </Switch>
 )

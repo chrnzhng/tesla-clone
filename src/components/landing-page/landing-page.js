@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './landing-page.css';
 
 class LandingPage extends Component {
@@ -13,26 +13,29 @@ class LandingPage extends Component {
                         <div className="header-nav-container">
                             <img
                                 className="logo"
-                                src='https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-landing/tsla-logo.svg'/>
+                                src='https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-landing/tsla-logo.svg'
+                                alt="tsla-logo"/>
                             <ul className="header-nav-lnk">
-                                <Link to="/teslas"><li>MODEL S</li></Link>
-                                <li>MODEL X</li>
-                                <li>MODEL 3</li>
-                                <li>ENERGY
+                                <Link to="/teslas">
+                                    <li><p>MODEL S</p></li>
+                                </Link>
+                                <li><p>MODEL X</p></li>
+                                <li><p>MODEL 3</p></li>
+                                <li><p>ENERGY</p>
                                 </li>
                             </ul>
                             <ul className="header-nav-lnk">
-                                <li>CHARGING</li>
-                                <li>UPDATES</li>
-                                <li>SUPPORT</li>
-                                <li>FIND US</li>
-                                <li>SHOP</li>
-                                <li>MY TESLA</li>
+                                <li><p>CHARGING</p></li>
+                                <li><p>UPDATES</p></li>
+                                <li><p>SUPPORT</p></li>
+                                <li><p>FIND US</p></li>
+                                <li><p>SHOP</p></li>
+                                <li><p>MY TESLA</p></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <video src={require('./landing-vid.mp4')} autoPlay loop></video>
+                <video src={require('./landing-vid.mp4')} autoPlay loop alt="car-showcase"></video>
                 <div className="intro-container">
                     <div className="wrapper-intro">
                         <h1>Quickest Acceleration.<br></br>

@@ -1,0 +1,106 @@
+.main-body {
+    margin: 0px 10%;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h5 {
+    color: #fff;
+    font-family: 'Open Sans Condensed'
+}
+
+ul {
+    list-style: none;
+}
+
+.header-tesla-s {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background: #222222;
+    justify-content: center;
+}
+
+.header-container {
+    width: 85%;
+    display: flex;
+    color: #fff;
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-nav-lnk {
+    display: flex;
+}
+
+.logo {
+    height: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top-section {
+    width: 100%;
+}
+
+.tesla-s-pic {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+h2,
+p {
+    font-family: 'Open Sans Condensed'
+}
+
+p {
+    font-size: 13px;
+}
+
+.performance {
+    height: 668px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.perf-container {
+    max-width: 75%;
+    object-fit: contain;
+    text-align: center;
+}
+
+.perf-btm-container {
+    display: flex;
+    max-width: 100%;
+    object-fit: contain;
+    border-bottom: .5px solid #cccccc;
+}
+
+.perf-snap {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.newsletter-btn p {
+    color: #fff;
+    font-size: 10px !important;
+}
+
+.newsletter-btn {
+    background: black;
+    border: none;
+    
+}
