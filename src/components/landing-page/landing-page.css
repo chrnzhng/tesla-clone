@@ -30,10 +30,18 @@ ul {
 }
 
 .header-container {
-    width: 75%;
+    width: 85%;
     display: flex;
     color: #fff;
-    font-size: 13px;
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .header-nav-lnk {
@@ -52,7 +60,7 @@ ul {
     flex-direction: column;
     align-content: center;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .wrapper-intro {
@@ -64,10 +72,8 @@ ul {
 .trans-btn {
     color: #fff;
     font-size: 10px;
-    padding: 0px 5px;
+    padding: 2px 5px;
     margin: 4px;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border: transparent;
-
-    
 }
