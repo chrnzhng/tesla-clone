@@ -11,9 +11,10 @@ video {
     transform: translate(-50%, -50%);
 }
 
-a:visited {
+a {
     text-decoration: none;
     color: white;
+   
 }
 
 h1,
@@ -28,6 +29,10 @@ ul {
 ul p{
     font-size: 10px;
     font-weight: 900;
+}
+
+li {
+    margin: 0px 5px;
 }
 
 .header {
