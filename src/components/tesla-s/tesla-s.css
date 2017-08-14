@@ -60,11 +60,16 @@ ul {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
 h2,
 p {
     font-family: 'Open Sans Condensed'
+
 }
 
+h1.self-drive-header, .all-wheel-header {
+    color: black;
+}
 p {
     font-size: 13px;
 }
@@ -104,3 +109,78 @@ p {
     border: none;
     
 }
+
+.self-driving {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background: #f7f7f7;
+    
+}
+
+
+.self-drive-vid {
+    width: 600px;
+}
+
+.all-wheel-drive {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+
+
+}
+
+.all-wheel-pic {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.group-btn-wheel {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.p100d {
+    background: url("https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+25.svg") no-repeat center;
+    width: 95px;
+    padding: 2px;
+    border: solid .8px #f2f2f2;
+ 
+}
+
+.dm-btn{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #fff;
+    border: solid .8px #f2f2f2
+}
+
+
+.sm-btn{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #fff;
+    border: solid .8px #f2f2f2
+
+}
+
+.self-drive-para, .self-drive-thumb-vid {
+    height: 300px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.self-drive-para p {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 5px;
+    width: 80%;
+}
+

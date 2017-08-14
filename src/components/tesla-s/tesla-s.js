@@ -5,6 +5,10 @@ import './tesla-s.css'
 
 class TeslaS extends Component {
     render() {
+        var settings = {
+            dots: true
+        };
+
         return (
             <div className="main-body">
                 <div className="header-tesla-s">
@@ -44,26 +48,74 @@ class TeslaS extends Component {
                 <section className="performance">
                     <div className="perf-container">
                         <div className="perf-large">
-                           <h2>Performance and safety refined</h2>
-                            <p>Model S is designed from the ground up to be
-                                the safest, most exhilarating sedan on the road. With unparalleled performance
-                                delivered through Tesla's unique, all-electric powertrain, Model S accelerates
-                                from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot
-                                capabilities designed to make your highway driving not only safer, but stress
-                                free.</p>
+                            <h2>Performance and safety refined</h2>
+                            <p>Model S is designed from the ground up to be the safest, most exhilarating
+                                sedan on the road. With unparalleled performance delivered through Tesla's
+                                unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as
+                                little as 2.5 seconds. Model S comes with Autopilot capabilities designed to
+                                make your highway driving not only safer, but stress free.</p>
 
                         </div>
                         <div className="perf-btm">
-                        <div className="perf-btm-container">
-                            <img className="perf-snap" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/performance.PNG" />
-                        </div>
+                            <div className="perf-btm-container">
+                                <img
+                                    className="perf-snap"
+                                    src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/performance.PNG"/>
+                            </div>
                         </div>
                         <div className="news-update">
                             <p>Be the first to receive the latest Tesla news, events and product updates.</p>
-                            <button className="newsletter-btn"><p>GET NEWSLETTER</p></button>
+                            <button className="newsletter-btn">
+                                <p>GET NEWSLETTER</p>
+                            </button>
                         </div>
 
                     </div>
+                </section>
+                <section className="self-driving">
+                    <h1 className="self-drive-header">Full Self-Driving Hardware on your Model S</h1>
+                    <img
+                        className="self-drive-vid"
+                        src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video.jpg"/>
+                    <p>All Tesla vehicles produced in our factory, including Model 3, have the
+                        hardware needed for full self-driving capability at a safety level substantially
+                        greater than that of a human driver.</p>
+                    <div className="order-learn-btns">
+                        <button>Order Now</button>
+                        <button>Learn More</button>
+                    </div>
+                </section>
+                <section className="all-wheel-drive">
+                    <h1 className="all-wheel-header">Electric All-Wheel Drive</h1>
+
+                    <img
+                        className="all-wheel-pic"
+                        src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+1.jpeg"></img>
+                    <div className="group-btn-wheel">
+                        <button className="dm-btn">Dual Motor</button>
+                        <button className="p100d"></button>
+                        <button className="sm-btn">Single Motor</button>
+                    </div>
+                    <div className="self-drive-btm">
+                        <div className="self-drive-para">
+                            <p>Dual Motor Model S is a categorical improvement on conventional all-wheel
+                                drive systems. With two motors, one in the front and one in the rear, Model S
+                                digitally and independently controls torque to the front and rear wheels. The
+                                result is unparalleled traction control in all conditions.<br></br>
+                                <br></br>
+                                Conventional all-wheel drive cars employ complex mechanical linkages to
+                                distribute power from a single engine to all four wheels. This sacrifices
+                                efficiency in favor of all weather traction. In contrast, each Model S motor is
+                                lighter, smaller and more efficient than its rear wheel drive counterpart,
+                                providing both improved range and faster acceleration.<br></br>
+                                <br></br>
+                                Model S Performance comes standard with All-Wheel Drive Dual Motor, pairing the
+                                high performance rear motor with a high efficiency front motor to achieve
+                                supercar acceleration, from zero to 60 miles per hour in 2.5 seconds.</p>
+                        </div>
+                        <div className="self-drive-thumb-vid"></div>
+                    </div>
+
                 </section>
             </div>
         );

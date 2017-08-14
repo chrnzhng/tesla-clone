@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
 video {
     position: fixed;
     top: 50%;
@@ -14,7 +15,7 @@ video {
 a {
     text-decoration: none;
     color: white;
-   
+  
 }
 
 h1,
@@ -26,7 +27,8 @@ h5 {
 ul {
     list-style: none;
 }
-ul p{
+
+ul p {
     font-size: 10px;
     font-weight: 900;
 }
@@ -41,12 +43,10 @@ li {
     width: 100%;
     background: transparent !important;
     justify-content: center;
-  
+    
 }
 
 .header-container {
-    
-  
     display: flex;
     color: #fff;
     font-size: 10px;
@@ -70,7 +70,6 @@ li {
     height: 8px;
     margin-top: auto;
     margin-bottom: auto;
-    
 }
 
 .intro-container {
@@ -90,7 +89,6 @@ li {
 
 .trans-btn {
     color: #fff;
-   
     padding: 0px 14px;
     margin: 4px;
     background-color: rgba(0, 0, 0, 0.5);
