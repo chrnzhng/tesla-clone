@@ -116,6 +116,8 @@ p {
     align-items: center;
     width: 100%;
     background: #f7f7f7;
+    padding-bottom: 50px;
+   
 }
 
 .self-drive-vid {
@@ -128,10 +130,7 @@ p {
     text-align: center;
 }
 
-.all-wheel-pic {
-    max-width: 100%;
-    object-fit: contain;
-}
+
 
 .group-btn-wheel {
     display: flex;

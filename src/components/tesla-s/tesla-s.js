@@ -92,10 +92,17 @@ class TeslaS extends Component {
                 </section>
                 <section className="all-wheel-drive">
                     <h1 className="all-wheel-header">Electric All-Wheel Drive</h1>
-
-                    <img
-                        className="all-wheel-pic"
-                        src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+1.jpeg"></img>
+                    <Slider>
+                        <div>
+                            <img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+1.jpeg"></img>
+                        </div>
+                        <div>
+                            <img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+2.jpeg"></img>
+                        </div>
+                        <div>
+                            <img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+3.jpeg"></img>
+                        </div>
+                    </Slider>
                     <div className="group-btn-wheel">
                         <button className="dm-btn">Dual Motor</button>
                         <button className="p100d"></button>
@@ -138,17 +145,20 @@ class TeslaS extends Component {
                         visibility without distraction. It puts rich content at your fingertips and
                         provides mobile connectivity so you can easily find your destination, favorite
                         song or a new restaurant.</p>
-                        <Slider className="driver-carousel" {...settings}>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+4.jpeg"/></div>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+5.jpeg"/></div>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+6.jpeg"/></div>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+7.jpeg"/></div>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+8.jpeg"/></div>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+9.jpeg"/></div>
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+10.jpeg"/></div>  
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+11.jpeg"/></div>  
-                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+12.jpeg"/></div>                              
-                        </Slider>
+                    <Slider className="driver-carousel" {...settings}>
+                        <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+4.jpeg"/></div>
+                        <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+5.jpeg"/></div>
+                        <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+6.jpeg"/></div>
+                        <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+7.jpeg"/></div>
+                        <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+8.jpeg"/></div>
+                        <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+9.jpeg"/></div>
+                        <div><img
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+10.jpeg"/></div>
+                        <div><img
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+11.jpeg"/></div>
+                        <div><img
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+12.jpeg"/></div>
+                    </Slider>
 
                 </section>
             </div>
