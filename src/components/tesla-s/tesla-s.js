@@ -79,9 +79,15 @@ class TeslaS extends Component {
                 </section>
                 <section className="self-driving">
                     <h1 className="self-drive-header">Full Self-Driving Hardware on your Model S</h1>
-                    <img
-                        className="self-drive-vid"
-                        src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video.jpg"/>
+                    <iframe
+                        src="https://player.vimeo.com/video/192179726?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
+                        width="450"
+                        height="253"
+                        frameborder="0"
+                        webkitallowfullscreen
+                        mozallowfullscreen
+                        allowfullscreen></iframe>
+
                     <p>All Tesla vehicles produced in our factory, including Model 3, have the
                         hardware needed for full self-driving capability at a safety level substantially
                         greater than that of a human driver.</p>
@@ -126,9 +132,17 @@ class TeslaS extends Component {
                                 supercar acceleration, from zero to 60 miles per hour in 2.5 seconds.</p>
                         </div>
                         <div className="self-drive-thumb-vid">
-                            <img
+                            {/* <img
                                 className="self-drive-thumb"
-                                src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video2.jpg"/>
+                                src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video2.jpg"/> */}
+                            <iframe
+                                src="https://player.vimeo.com/video/157661320?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
+                                width="320"
+                                height="180"
+                                frameborder="0"
+                                webkitallowfullscreen
+                                mozallowfullscreen
+                                allowfullscreen></iframe>
                             <p>
                                 Winter Challenge on snow and ice<br></br>
                                 A professional winter driving class, carried out by the Swiss<br></br>
@@ -177,16 +191,66 @@ class TeslaS extends Component {
                                 stiffness. In the event of an accident, eight airbags protect front and rear
                                 occupants, and the high voltage power source is automatically disconnected.</p>
                         </div>
-                        <div className="safety-rt"><img
+                        <div className="safety-rt">
+                            {/* <img
                             className="safety-thumb"
-                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video3.jpg"/>
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video3.jpg"/> */}
+                            <iframe
+                                src="https://player.vimeo.com/video/155718470?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
+                                width="320"
+                                height="180"
+                                frameborder="0"
+                                webkitallowfullscreen
+                                mozallowfullscreen
+                                allowfullscreen></iframe>
                             <p>What it means to be safe<br></br>
                                 Jim survives a life changing collision thanks to his Model S.</p>
                         </div>
 
                     </div>
                 </section>
-                <section></section>
+                <section className="touch-screen">
+                    <div className="touch-screen-container">
+                        <div className="column-one">
+                            <h1>The touchscreen</h1>
+                            <p>The Model S 17 inch touchscreen controls most of the car's functions. Opening
+                                the all glass panoramic roof, customizing the automatic climate control, and
+                                changing the radio station all happen with a swipe or a touch. The touchscreen,
+                                digital instrument cluster, and steering wheel controls seamlessly integrate
+                                media, navigation, communications, cabin controls and vehicle data.</p>
+                            <iframe
+                                src="https://player.vimeo.com/video/155718467?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
+                                width="220"
+                                height="124"
+                                frameborder="0"
+                                webkitallowfullscreen
+                                mozallowfullscreen
+                                allowfullscreen></iframe>
+                            <p>A more useful driving experience<br></br>
+                                Cutting edge technology enhances Simon's driving<br></br>
+                                experience.</p>
+                        </div>
+                        <div className="column-two">
+                           <p> Media AM/FM/HD radio, online radio, on-<br></br>demand Internet radio, Bluetooth®,<br></br>
+                            and USB audio devices<br></br>
+                            <br></br>
+                            Camera<br></br>
+                            High definition backup camera,<br></br>
+                            optimized for visibility and safety<br></br>
+                            <br></br>
+                            Map<br></br>
+                            Simple, intuitive Google Maps™<br></br>
+                            with real time traffic information<br></br>
+                            <br></br>
+                            Energy<br></br>
+                            Real time energy consumption and<br></br>
+                            range estimation</p>
+
+                        </div>
+                        <div className="column-three"></div>
+                    </div>
+
+                </section>
             </div>
         );
     }

@@ -119,9 +119,7 @@ p {
     padding-bottom: 50px;
 }
 
-.self-drive-vid {
-    width: 600px;
-}
+
 
 .all-wheel-drive {
     display: flex;
@@ -234,8 +232,8 @@ p {
     width: 50%;
 }
 
-.safety-lt {
-    padding-right: 80px;
+.safety-rt {
+    padding-left: 120px;
 }
 
 .safety-lt h1 {
@@ -245,4 +243,29 @@ p {
 .safety-thumb {
     width: 85%;
     object-fit: cover;
+}
+
+.touch-screen {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.touch-screen-container {
+    width: 85%;
+    display: flex;
+}
+
+.column-one, .column-two, .column-three {
+    display:flex;
+    width: 33.33%;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.column-one h1 {
+    color: black;
 }
