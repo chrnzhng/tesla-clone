@@ -1,12 +1,17 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-
+import Slider from 'react-slick';
 import './tesla-s.css'
 
 class TeslaS extends Component {
     render() {
         var settings = {
-            dots: true
+            dots: true,
+            fade: true,
+            infinite: true,
+            speed: 800,
+            slidesToShow: 1,
+            slidesToScroll: 1
         };
 
         return (
@@ -113,8 +118,37 @@ class TeslaS extends Component {
                                 high performance rear motor with a high efficiency front motor to achieve
                                 supercar acceleration, from zero to 60 miles per hour in 2.5 seconds.</p>
                         </div>
-                        <div className="self-drive-thumb-vid"></div>
+                        <div className="self-drive-thumb-vid">
+                            <img
+                                className="self-drive-thumb"
+                                src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video2.jpg"/>
+                            <p>
+                                Winter Challenge on snow and ice<br></br>
+                                A professional winter driving class, carried out by the Swiss<br></br>
+                                Touring Club.</p>
+                        </div>
                     </div>
+                </section>
+                <section className="driver-built">
+                    <h1>Built around the driver</h1>
+                    <p>Model S is a driver's car. The cabin combines meticulous noise engineering
+                        with Tesla's uniquely quiet powertrain to obtain the sound dynamics of a
+                        recording studio. The gem of the interior is the 17 inch touchscreen, which is
+                        angled toward the driver and includes both day and night modes for better
+                        visibility without distraction. It puts rich content at your fingertips and
+                        provides mobile connectivity so you can easily find your destination, favorite
+                        song or a new restaurant.</p>
+                        <Slider className="driver-carousel" {...settings}>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+4.jpeg"/></div>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+5.jpeg"/></div>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+6.jpeg"/></div>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+7.jpeg"/></div>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+8.jpeg"/></div>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+9.jpeg"/></div>
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+10.jpeg"/></div>  
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+11.jpeg"/></div>  
+                            <div><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+12.jpeg"/></div>                              
+                        </Slider>
 
                 </section>
             </div>

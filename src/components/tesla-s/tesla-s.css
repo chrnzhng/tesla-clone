@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+h2,
+p {
+    font-family: 'Open Sans Condensed'
+}
+
 .main-body {
     margin: 0px 10%;
 }
@@ -59,17 +65,11 @@ ul {
     object-fit: cover;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-
-h2,
-p {
-    font-family: 'Open Sans Condensed'
-
-}
-
-h1.self-drive-header, .all-wheel-header {
+h1.self-drive-header,
+.all-wheel-header {
     color: black;
 }
+
 p {
     font-size: 13px;
 }
@@ -107,7 +107,6 @@ p {
 .newsletter-btn {
     background: black;
     border: none;
-    
 }
 
 .self-driving {
@@ -117,9 +116,7 @@ p {
     align-items: center;
     width: 100%;
     background: #f7f7f7;
-    
 }
-
 
 .self-drive-vid {
     width: 600px;
@@ -129,9 +126,6 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-  
-
-
 }
 
 .all-wheel-pic {
@@ -142,7 +136,7 @@ p {
 .group-btn-wheel {
     display: flex;
     justify-content: center;
-   
+    margin-bottom: 25px;
 }
 
 .p100d {
@@ -150,37 +144,75 @@ p {
     width: 95px;
     padding: 2px;
     border: solid .8px #f2f2f2;
- 
 }
 
-.dm-btn{
+.dm-btn {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background: #fff;
     border: solid .8px #f2f2f2
 }
 
-
-.sm-btn{
+.sm-btn {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background: #fff;
     border: solid .8px #f2f2f2
-
 }
 
-.self-drive-para, .self-drive-thumb-vid {
+.self-drive-btm {
+    width: 100%;
+    display: flex;
+}
+
+.self-drive-para,
+.self-drive-thumb-vid {
     height: 300px;
     max-width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
+
 .self-drive-para p {
     text-align: left;
     font-size: 12px;
-    margin-left: 5px;
+  
     width: 80%;
 }
 
+.self-drive-thumb {
+    width: 55%;
+    object-fit: contain;
+    padding-left: 0
+}
+
+.self-drive-thumb-vid {
+    text-align: left;
+}
+
+.driver-built {
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #f7f7f7;
+}
+.driver-built h1, .driver-built p {
+    color: black !important;
+    width: 65%;
+    text-align: center;
+}
+
+.driver-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;    
+   
+}
+
+.slick-slide img {
+    max-width:100%;
+}
