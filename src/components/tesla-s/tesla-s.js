@@ -91,9 +91,9 @@ class TeslaS extends Component {
                     <p>All Tesla vehicles produced in our factory, including Model 3, have the
                         hardware needed for full self-driving capability at a safety level substantially
                         greater than that of a human driver.</p>
-                    <div className="order-learn-btns">
-                        <button>Order Now</button>
-                        <button>Learn More</button>
+                    <div className="order-learn">
+                        <button className="order-learn-btns">Order Now</button>
+                        <button className="order-learn-btns">Learn More</button>
                     </div>
                 </section>
                 <section className="all-wheel-drive">
@@ -221,7 +221,7 @@ class TeslaS extends Component {
                             <iframe
                                 src="https://player.vimeo.com/video/155718467?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
                                 width="220"
-                                height="124"
+                                height="180"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
