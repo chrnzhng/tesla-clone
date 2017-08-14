@@ -161,6 +161,32 @@ class TeslaS extends Component {
                     </Slider>
 
                 </section>
+                <section className="safety">
+                    <div className="safety-container">
+                        <div className="safety-lt">
+                            <h1>Safety</h1>
+                            <p>
+                                Model S is designed from the ground up to be the safest car on the road. Much of
+                                its safety is owed to the unique electric drivetrain that sits beneath the car's
+                                aluminum occupant cell in its own subframe. This unique positioning lowers the
+                                car's center of gravity, which improves handling and minimizes rollover risk,
+                                and replaces the heavy engine block with impact absorbing boron steel rails.<br></br>
+                                <br></br>
+                                Side impacts are met by aluminum pillars reinforced with steel rails to reduce
+                                intrusion, protecting occupants and the battery pack while improving roof
+                                stiffness. In the event of an accident, eight airbags protect front and rear
+                                occupants, and the high voltage power source is automatically disconnected.</p>
+                        </div>
+                        <div className="safety-rt"><img
+                            className="safety-thumb"
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video3.jpg"/>
+                            <p>What it means to be safe<br></br>
+                                Jim survives a life changing collision thanks to his Model S.</p>
+                        </div>
+
+                    </div>
+                </section>
+                <section></section>
             </div>
         );
     }
