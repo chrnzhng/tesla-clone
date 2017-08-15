@@ -220,8 +220,8 @@ class TeslaS extends Component {
                                 media, navigation, communications, cabin controls and vehicle data.</p>
                             <iframe
                                 src="https://player.vimeo.com/video/155718467?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
-                                width="220"
-                                height="180"
+                                width="260"
+                                height="220"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
@@ -231,23 +231,47 @@ class TeslaS extends Component {
                                 experience.</p>
                         </div>
                         <div className="column-two">
-                           <p> Media AM/FM/HD radio, online radio, on-<br></br>demand Internet radio, Bluetooth®,<br></br>
-                            and USB audio devices<br></br>
-                            <br></br>
-                            Camera<br></br>
-                            High definition backup camera,<br></br>
-                            optimized for visibility and safety<br></br>
-                            <br></br>
-                            Map<br></br>
-                            Simple, intuitive Google Maps™<br></br>
-                            with real time traffic information<br></br>
-                            <br></br>
-                            Energy<br></br>
-                            Real time energy consumption and<br></br>
-                            range estimation</p>
+                            <p>
+                                Media<br></br>
+                                AM/FM/HD radio, online radio, on-<br></br>demand Internet radio, Bluetooth®,<br></br>
+                                and USB audio devices<br></br>
+                                <br></br>
+                                Camera<br></br>
+                                High definition backup camera,<br></br>
+                                optimized for visibility and safety<br></br>
+                                <br></br>
+                                Map<br></br>
+                                Simple, intuitive Google Maps™<br></br>
+                                with real time traffic information<br></br>
+                                <br></br>
+                                Energy<br></br>
+                                Real time energy consumption and<br></br>
+                                range estimation</p>
 
                         </div>
-                        <div className="column-three"></div>
+                        <div className="column-three">
+                            <p>
+                                Controls<br></br>
+                                Driving personalization, climate
+                                <br></br>controls, and cabin controls<br></br>
+                                <br></br>
+                                <br></br>
+                                Calendar<br></br>
+                                Calendar synchronization for daily
+                                <br></br>
+                                schedule and tap to navigate<br></br>
+                                <br></br>
+                                Navigation<br></br>
+                                Smart routing that adjusts for real
+                                <br></br>
+                                time traffic conditions<br></br>
+                                <br></br>
+                                Phone<br></br>
+                                Bluetooth-enabled, voice controlled
+                                <br></br>
+                                handsfree phone system</p>
+                        </div>
+
                     </div>
 
                 </section>

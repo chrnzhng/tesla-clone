@@ -35,7 +35,7 @@ class LandingPage extends Component {
                         </div>
                     </div>
                 </div>
-                <video src={require('./landing-vid.mp4')} autoPlay loop alt="car-showcase"></video>
+                <video src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-landing/landing-vid.mp4" autoPlay loop alt="car-showcase"></video>
                 <div className="intro-container">
                     <div className="wrapper-intro">
                         <h1>Quickest Acceleration.<br></br>

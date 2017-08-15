@@ -256,6 +256,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-left: 45px;
 
 }
 
@@ -274,4 +275,8 @@ p {
 
 .column-one h1 {
     color: black;
+}
+
+.column-two, .column-three {
+    margin-top: 70px;
 }
