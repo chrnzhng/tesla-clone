@@ -126,7 +126,6 @@ p {
     margin: 4px;
 }
 
-
 .all-wheel-drive {
     display: flex;
     flex-direction: column;
@@ -256,8 +255,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 45px;
-
+    margin-left: 43px;
 }
 
 .touch-screen-container {
@@ -265,11 +263,12 @@ p {
     display: flex;
 }
 
-.column-one, .column-two, .column-three {
-    display:flex;
+.column-one,
+.column-two,
+.column-three {
+    display: flex;
     width: 33.33%;
     align-items: center;
-
     flex-direction: column;
 }
 
@@ -277,6 +276,76 @@ p {
     color: black;
 }
 
-.column-two, .column-three {
+.column-two,
+.column-three {
     margin-top: 70px;
+}
+
+.software {
+    width: 100%;
+    display: flex;
+}
+
+.software-banner-pic {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.software-updates {
+    position: absolute;
+    right: 0;
+    margin-right: 170px;
+}
+
+.software-updates p {
+    color: white;
+}
+
+.range-hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.range-hero h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    font-size: 37px;
+}
+
+.range-car-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.range-car-container img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.range-car-w1,
+.range-car-w2 {
+    position: absolute;
+    height: 53px;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+.range-car-w1 {
+    left: 0;
+    margin-left: 36%;
+    margin-top: 118px
+}
+
+.range-car-w2 {
+    right: 0;
+    margin-right: 37%;
+    margin-top: 118px
 }

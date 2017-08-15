@@ -275,6 +275,34 @@ class TeslaS extends Component {
                     </div>
 
                 </section>
+                <section className="software">
+                    <div className="software-banner">
+                        <img
+                            className="software-banner-pic"
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+26.jpeg"/>
+                    </div>
+                    <div className="software-updates">
+                        <h1>Software Updates</h1>
+                        <p>All Tesla vehicles with Enhanced Autopilot and the latest software<br></br>
+                            update now have Autosteer up to 90 mph, Auto Lane Change,<br></br>
+                            Summon (Beta), and Automatic Emergency Braking.</p>
+                        <br></br>
+                        <br></br>
+                        <button>LEARN MORE</button>
+                    </div>
+
+                </section>
+                <section className="range-hero">
+                    <div className="range-car-container">
+                    <h1>Range Per Charge</h1>
+                        <div className="range-car">
+                        <img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+27.jpeg" />
+                        <img className="range-car-w1" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png" />
+                        <img className="range-car-w2" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png" />
+                        </div>
+                    </div>
+
+                </section>
             </div>
         );
     }
