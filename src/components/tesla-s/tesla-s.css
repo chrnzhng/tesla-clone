@@ -284,11 +284,13 @@ p {
 .software {
     width: 100%;
     display: flex;
+    margin: 0px !important;
 }
 
 .software-banner-pic {
     max-width: 100%;
     object-fit: contain;
+    
 }
 
 .software-updates {
@@ -320,7 +322,7 @@ p {
     flex-direction: column;
 }
 
-.range-car-container img {
+/* .range-car-container img {
     max-width: 100%;
     object-fit: contain;
 }
@@ -336,7 +338,7 @@ p {
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } } */
 
 .range-car-w1 {
     left: 0;
