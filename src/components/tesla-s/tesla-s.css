@@ -5,9 +5,7 @@ p {
 }
 
 .main-body {
-   
     margin: 0 13%;
-
 }
 
 a:visited {
@@ -301,8 +299,6 @@ p {
 .software-updates {
     position: absolute;
     right: 330px;
-   
-
 }
 
 .software-updates p {
@@ -333,15 +329,16 @@ p {
 }
 
 .range-car {
-    width: 555px;
-    height: 247px;
+    width: 888px;
+    /* height: 247px; */
+
     position: relative;
 }
 
 .range-car-w1,
 .range-car-w2 {
     position: absolute;
-    height: 51px;
+    height: 78px;
     -webkit-animation: spin 2s linear infinite;
     -moz-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -367,11 +364,11 @@ p {
 }
 
 .range-car-w1 {
-    left: 138px;
-    bottom: 94px
+    left: 223px;
+    bottom: 106px
 }
 
 .range-car-w2 {
-    right: 149px;
-    bottom: 94px;
+    right: 240px;
+    bottom: 106px;
 }

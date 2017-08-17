@@ -294,8 +294,8 @@ class TeslaS extends Component {
                 </section>
                 <section className="range-hero">
                     <div className="range-car-container">
-                        {/* <h1>Range Per Charge</h1>
-                        <p>The actual amount of range that you experience will vary based on your
+                        <h1>Range Per Charge</h1>
+                        {/* <p>The actual amount of range that you experience will vary based on your
                             particular use conditions. See how particular use conditions may affect your<br></br>
                             range in our simulation model.<br></br>
                             <br></br>
