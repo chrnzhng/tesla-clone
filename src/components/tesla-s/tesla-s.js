@@ -137,8 +137,8 @@ class TeslaS extends Component {
                                 src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video2.jpg"/> */}
                             <iframe
                                 src="https://player.vimeo.com/video/157661320?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
-                                width="320"
-                                height="180"
+                                width="450"
+                                height="253"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
@@ -197,8 +197,8 @@ class TeslaS extends Component {
                             src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/video3.jpg"/> */}
                             <iframe
                                 src="https://player.vimeo.com/video/155718470?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
-                                width="320"
-                                height="180"
+                                width="450"
+                                height="253"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
@@ -220,8 +220,8 @@ class TeslaS extends Component {
                                 media, navigation, communications, cabin controls and vehicle data.</p>
                             <iframe
                                 src="https://player.vimeo.com/video/155718467?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
-                                width="320"
-                                height="180"
+                                width="450"
+                                height="253"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
