@@ -5,7 +5,9 @@ p {
 }
 
 .main-body {
-    margin: 0px 10%;
+   
+    margin: 0 13%;
+
 }
 
 a:visited {
@@ -58,6 +60,7 @@ ul {
 
 .top-section {
     width: 100%;
+    display: flex;
 }
 
 .tesla-s-pic {
@@ -297,8 +300,9 @@ p {
 
 .software-updates {
     position: absolute;
-    right: 0;
-    margin-right: 170px;
+    right: 330px;
+   
+
 }
 
 .software-updates p {

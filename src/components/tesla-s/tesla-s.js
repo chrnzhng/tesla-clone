@@ -220,8 +220,8 @@ class TeslaS extends Component {
                                 media, navigation, communications, cabin controls and vehicle data.</p>
                             <iframe
                                 src="https://player.vimeo.com/video/155718467?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
-                                width="260"
-                                height="220"
+                                width="320"
+                                height="180"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
