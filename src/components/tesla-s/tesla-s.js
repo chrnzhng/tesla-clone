@@ -294,19 +294,19 @@ class TeslaS extends Component {
                 </section>
                 <section className="range-hero">
                     <div className="range-car-container">
-                        <h1>Range Per Charge</h1>
+                        {/* <h1>Range Per Charge</h1>
                         <p>The actual amount of range that you experience will vary based on your
                             particular use conditions. See how particular use conditions may affect your<br></br>
                             range in our simulation model.<br></br>
                             <br></br>
                             Vehicle range may vary depending on the vehicle configuration, battery age and
                             condition, driving style and operating, environmental and climate<br></br>
-                            conditions.</p>
-                        {/* <div className="range-car">
+                            conditions.</p> */}
+                        <div className="range-car">
                         <img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+27.jpeg" />
                         <img className="range-car-w1" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png" />
                         <img className="range-car-w2" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png" />
-                        </div> */}
+                        </div>
                     </div>
 
                 </section>
