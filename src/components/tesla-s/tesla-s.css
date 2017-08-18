@@ -415,7 +415,7 @@ p {
 .range-controls {
     width: 75%;
     display: flex;
-    margin-top: -170px;
+    margin-top: -80px;
 }
 
 .range-ctrl-speeds,

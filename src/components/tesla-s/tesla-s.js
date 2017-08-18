@@ -112,9 +112,13 @@ class TeslaS extends Component {
                         </div>
                     </Slider>
                     <div className="group-btn-wheel">
-                        <button className="dm-btn"><p>Dual Motor</p></button>
+                        <button className="dm-btn">
+                            <p>Dual Motor</p>
+                        </button>
                         <button className="p100d"></button>
-                        <button className="sm-btn"><p>Single Motor</p></button>
+                        <button className="sm-btn">
+                            <p>Single Motor</p>
+                        </button>
                     </div>
                     <div className="self-drive-btm">
                         <div className="self-drive-para">
@@ -321,10 +325,18 @@ class TeslaS extends Component {
                     <table className="range-table">
                         <thead>
                             <tr>
-                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+29.svg" /></td>
-                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+30.svg" /></td>
-                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+32.svg" /></td>
-                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+25.svg" /></td>
+                                <td><img
+                                    className="tr-pics"
+                                    src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+29.svg"/></td>
+                                <td><img
+                                    className="tr-pics"
+                                    src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+30.svg"/></td>
+                                <td><img
+                                    className="tr-pics"
+                                    src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+32.svg"/></td>
+                                <td><img
+                                    className="tr-pics"
+                                    src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+25.svg"/></td>
                             </tr>
                         </thead>
                         <tbody>
@@ -345,12 +357,23 @@ class TeslaS extends Component {
                         <div className="range-ctrl-speeds"></div>
                         <div className="range-ctrl-temps"></div>
                         <div className="range-ctrl-ac">
-                            <button className="ac-toggle"><p>AC OFF</p><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+15.svg" /></button>
+                            <button className="ac-toggle">
+                                <p>AC OFF</p><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+15.svg"/></button>
                         </div>
                         <div className="range-ctrl-wheels"></div>
                         <div className="range-ctrl-wheels2"></div>
 
                     </div>
+                    <div>
+                    <p>The actual amount of range that you experience will vary based on your
+                        particular use conditions. See how particular use conditions may affect your
+                        range in our simulation model.<br></br>
+                        <br></br>
+                        Vehicle range may vary depending on the vehicle configuration, battery age and
+                        condition, driving style and operating, environmental and climate<br></br>
+                        conditions.
+
+                    </p></div>
                 </section>
             </div>
         );
