@@ -438,7 +438,19 @@ p {
 
 .ac-toggle {
     margin: 0 auto;
-    border-radius: 25px;
-    height: 100x;
+    height: 99px;
     width: 100px;
+    border-radius: 50px;
+   
+    /* background: url("https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+15.svg"); */
+    background: none;
+}
+
+.ac-toggle p {
+    margin-top: -10px;
+}
+
+.ac-toggle img {
+    width: 22px;
+    margin-top: -10px;
 }

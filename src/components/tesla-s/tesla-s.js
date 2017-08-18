@@ -345,7 +345,7 @@ class TeslaS extends Component {
                         <div className="range-ctrl-speeds"></div>
                         <div className="range-ctrl-temps"></div>
                         <div className="range-ctrl-ac">
-                            <button className="ac-toggle">AC OFF</button>
+                            <button className="ac-toggle"><p>AC OFF</p><img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+15.svg" /></button>
                         </div>
                         <div className="range-ctrl-wheels"></div>
                         <div className="range-ctrl-wheels2"></div>
