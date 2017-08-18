@@ -6,6 +6,7 @@ import './tesla-s.css'
 class TeslaS extends Component {
     render() {
         var settings = {
+            arrows: false,
             dots: true,
             fade: true,
             infinite: true,
@@ -20,10 +21,11 @@ class TeslaS extends Component {
                     <div className="header-container">
 
                         <div className="header-nav-container">
-                            <img
-                                className="logo"
-                                src='https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-landing/tsla-logo.svg'
-                                alt="tsla-logo"/>
+                            <Link className="logo-link" to="/">
+                                <img
+                                    className="logo"
+                                    src='https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-landing/tsla-logo.svg'
+                                    alt="tsla-logo"/></Link>
                             <ul className="header-nav-lnk">
                                 <Link to="/teslas">
                                     <li>MODEL S</li>
@@ -303,12 +305,52 @@ class TeslaS extends Component {
                             condition, driving style and operating, environmental and climate<br></br>
                             conditions.</p> */}
                         <div className="range-car">
-                        <img src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+27.jpeg" />
-                        <img className="range-car-w1" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png" />
-                        <img className="range-car-w2" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png" />
+                            <img
+                                src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+27.jpeg"/>
+                            <img
+                                className="range-car-w1"
+                                src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png"/>
+                            <img
+                                className="range-car-w2"
+                                src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+13.png"/>
                         </div>
                     </div>
 
+                </section>
+                <section className="range-calc">
+                    <table className="range-table">
+                        <thead>
+                            <tr>
+                                <td>75</td>
+                                <td>75D</td>
+                                <td>100D</td>
+                                <td>P100D</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>265<sup>MI</sup>
+                                </td>
+                                <td>275<sup>MI</sup>
+                                </td>
+                                <td>351<sup>MI</sup>
+                                </td>
+                                <td>337<sup>MI</sup>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div className="range-controls">
+                        <div className="range-ctrl-speeds"></div>
+                        <div className="range-ctrl-temps"></div>
+                        <div className="range-ctrl-ac">
+                            <button className="ac-toggle">AC OFF</button>
+                        </div>
+                        <div className="range-ctrl-wheels"></div>
+                        <div className="range-ctrl-wheels2"></div>
+
+                    </div>
                 </section>
             </div>
         );
