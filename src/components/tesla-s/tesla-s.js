@@ -112,9 +112,9 @@ class TeslaS extends Component {
                         </div>
                     </Slider>
                     <div className="group-btn-wheel">
-                        <button className="dm-btn">Dual Motor</button>
+                        <button className="dm-btn"><p>Dual Motor</p></button>
                         <button className="p100d"></button>
-                        <button className="sm-btn">Single Motor</button>
+                        <button className="sm-btn"><p>Single Motor</p></button>
                     </div>
                     <div className="self-drive-btm">
                         <div className="self-drive-para">
