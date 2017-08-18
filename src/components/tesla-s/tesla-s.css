@@ -2,7 +2,7 @@
 h2,
 p {
     font-family: 'Open Sans Condensed';
-    font-size: 17px;
+    font-size: 17px !important;
 }
 
 .main-body {
@@ -198,6 +198,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     background: #f7f7f7;
+    margin-top: 100px;
 }
 
 .driver-built h1,
@@ -231,7 +232,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid .85px #f2f2f2
+    border-bottom: solid .85px #f2f2f2;
+    padding-bottom: 100px;
+    margin-top: 100px;
 }
 
 .safety-lt,
@@ -257,7 +260,8 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 43px;
+    margin-left: 61px;
+    margin-top: 100px;
 }
 
 .touch-screen-container {
@@ -332,7 +336,6 @@ p {
 .range-car {
     width: 888px;
     /* height: 247px; */
-
     position: relative;
 }
 
