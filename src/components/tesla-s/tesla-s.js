@@ -321,10 +321,10 @@ class TeslaS extends Component {
                     <table className="range-table">
                         <thead>
                             <tr>
-                                <td>75</td>
-                                <td>75D</td>
-                                <td>100D</td>
-                                <td>P100D</td>
+                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+29.svg" /></td>
+                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+30.svg" /></td>
+                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+32.svg" /></td>
+                                <td><img className="tr-pics" src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+25.svg" /></td>
                             </tr>
                         </thead>
                         <tbody>

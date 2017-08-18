@@ -346,6 +346,8 @@ p {
     width: 888px;
     /* height: 247px; */
     position: relative;
+    margin-top: -30px;
+    z-index: 1;
 }
 
 .range-car-w1,
@@ -376,6 +378,10 @@ p {
     }
 }
 
+.tr-pics {
+    height: 18px;
+}
+
 .range-car-w1 {
     left: 223px;
     bottom: 106px
@@ -400,7 +406,6 @@ p {
     font-family: 'Open Sans';
     color: #008dff;
     font-size: 40px;
-    line-height: 24px;
 }
 
 .range-table sup {
