@@ -379,14 +379,11 @@ class TeslaS extends Component {
                 <section className="charge-est">
                     <h1>Charging Estimator</h1>
                     <div className="savings-hero">
-
                         <img
                             className="charge-car"
                             src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+19.jpeg"/>
                     </div>
-
                 </section>
-
             </div>
         );
     }
