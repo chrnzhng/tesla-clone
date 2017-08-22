@@ -226,8 +226,8 @@ class TeslaS extends Component {
                                 media, navigation, communications, cabin controls and vehicle data.</p>
                             <iframe
                                 src="https://player.vimeo.com/video/155718467?color=ff0000&amp;title=0&amp;byline=0&amp;portrait=0"
-                                width="450"
-                                height="253"
+                                width="320"
+                                height="180"
                                 frameborder="0"
                                 webkitallowfullscreen
                                 mozallowfullscreen
@@ -365,16 +365,28 @@ class TeslaS extends Component {
 
                     </div>
                     <div>
-                    <p>The actual amount of range that you experience will vary based on your
-                        particular use conditions. See how particular use conditions may affect your
-                        range in our simulation model.<br></br>
-                        <br></br>
-                        Vehicle range may vary depending on the vehicle configuration, battery age and
-                        condition, driving style and operating, environmental and climate<br></br>
-                        conditions.
+                        <p>The actual amount of range that you experience will vary based on your
+                            particular use conditions. See how particular use conditions may affect your
+                            range in our simulation model.<br></br>
+                            <br></br>
+                            Vehicle range may vary depending on the vehicle configuration, battery age and
+                            condition, driving style and operating, environmental and climate<br></br>
+                            conditions.
 
-                    </p></div>
+                        </p>
+                    </div>
                 </section>
+                <section className="charge-est">
+                    <h1>Charging Estimator</h1>
+                    <div className="savings-hero">
+
+                        <img
+                            className="charge-car"
+                            src="https://s3-us-west-1.amazonaws.com/tesla-clone/tesla-s/asset+19.jpeg"/>
+                    </div>
+
+                </section>
+
             </div>
         );
     }
